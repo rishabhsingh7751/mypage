@@ -1,0 +1,52 @@
+body {
+    background-image: url("http://images.unsplash.com/photo-1511447333015-45b65e60f6d5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MXwxMjA3fDB8MXxhbGx8fHx8fHx8fA&ixlib=rb-1.2.1&q=80&w=1080");
+ background-color: #cccccc;
+    color: white;
+    margin: 10px;
+    padding-top: 10%;
+    text-align: center;
+    font-family: cursive
+}
+
+#hobbyimg{
+    width: 400px;
+    border-radius: 200%;
+
+}
+
+.limks{
+    list-style: none;
+    font-family: normal;
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    z-index: 9;
+    cursor: pointer;
+    
+}
+
+.links{
+    margin:15px;
+    float: left;
+    color: blue;
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    font-family: fantasy;
+    font-size: 20px;
+}
+
+.links:hover{
+    background-color: yellow;
+}
+
+.bio{
+    font-size: 30px;
+    font-family: fantasy;
+    color: greenyellow;
+
+}
+HTML{
+    scroll-behavior: smooth;
+}
